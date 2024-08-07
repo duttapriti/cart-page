@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-size: 1em;
+}
+
+html{
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+header{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 100%;
+}
+
+.logo{
+    width: 100px;
+    height: 100%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.active{
+    font-weight: 600;
+    color: black;
+}
+
+li{
+    list-style: none;
+    color: rgb(80, 82, 83);
+}
+
+li:hover{
+    font-weight: 600;
+    color: black;
+}
+
+.login-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+
+.login{
+    padding: 10px 30px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.sign-up{
+    padding: 10px 28px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* ----------------navbar----------------- */
+
+.cart-text h2{
+    font-family: 'PT serif';
+    font-size: 40px;
+    font-weight: 500;
+    margin: 30px 0 30px 132px;
+}
+
+.container{
+    margin: 30px;
+    /* border: 2px solid black; */
+}
+
+.item-box1, .item-box2, .item-box3{
+    height: 150px;
+    width: 85%;
+    position: relative;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.img1, .img2, .img3{
+    height: 120px;
+    width: 100px;
+    position: absolute;
+    margin: 15px;
+    background-color: rgb(141, 102, 52);
+}
+
+.img1 img{
+    height: 120px;
+    width: 100%;
+    background-size: contain;
+}
+
+.img2 img{
+    height: 120px;
+    width: 100%;
+    background-size: contain;
+}
+
+.img3 img{
+    height: 120px;
+    width: 100%;
+    background-size: contain;
+}
+
+.text{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.item-name h6{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.item-type h6{
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+    
+}
+
+.price{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 60px;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.buy-now{
+    padding: 10px 35px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    /* margin-right: 20px; */
+    
+}
+
+.available{
+    padding: 10px 35px;
+    background-color: white;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.tick{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(218, 215, 215);
+    position: absolute;
+    margin: 63px;
+    margin-left: 1000px;
+}
+.checkbox{
+    color: black;
+}
+
+.fa-solid{
+    font-size: 30px;
+    position: absolute;
+    margin: 60px;
+    margin-left: 1110px;
+}
+
+.clear-all{
+    padding: 10px 45px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 1200px;
+}
+
+.container2{    
+    padding: 70px 0px;   
+}
+.checkout{
+    background-color: rgb(0, 0, 0);
+    height: 710px;
+    width: 759px;
+    float: left;
+    color: white;
+    
+}
+.recommended{
+    background-color: rgb(255, 255, 255);
+    height: 710px;
+    width: 759px;
+    float: right;
+}
+
+.checkout-container{
+    /* display: flex; */
+    width: 390px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin: 100px;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkout h2{
+    color: white;
+    font-family: 'PT serif';
+    font-size: 45px;
+    margin: 40px;
+    margin-left: 135px;
+}
+
+.checkout h5{
+    font-size: 22px;
+    font-family: 'poppins';
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.checkout-button{
+    padding: 10px 45px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 350px;
+    border: 3px solid white;
+}
+
+.recommended h2{
+    color: black;
+    font-family: 'PT serif';
+    font-size: 45px;
+    margin: 40px;
+    margin-left: 50px;
+}
+
+.recommended .img{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: bisque;
+    float: left;
+}
+.img img{
+    background-size: contain;
+    height: 300px;
+    width: 250px;
+}
+
+.recommended .details{
+    float: right;
+    margin-right: 180px;
+}
+
+.details h5{
+    font-size: 25px ;
+    font-family: 'poppins' ;
+    font-weight: 700 ;
+    margin-top: 20px;
+}
+
+.details h6{
+    font-size: 20px ;
+    font-family: 'poppins' ;
+    font-weight: 300 ;
+    margin-top: 25px;
+    /* margin-left: 20px; */
+}
+
+.details p{
+    font-size: 20px ;
+    font-family: 'poppins' ;
+    font-weight: 300 ;
+    margin-top: 20px;
+}
+
+.details h4{
+    font-size: 20px ;
+    font-family: 'poppins' ;
+    font-weight: 700 ;
+    margin-top: 25px;
+}
+
+.add-to-cart{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 15px;
+}
+
+/* -------------------footer------------------ */
+
+.footer{
+    position: relative;
+    top: 150px;
+   padding: 8vh;
+   background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer .footer-col{
+    padding-bottom: 40px;
+}
+.footer h3{
+    font-family: 'poppins';
+    color: rgba(241,240,245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.footer li:hover{
+    color: rgba(241,240,245);
+}
+.footer p{
+    font-family: 'poppins';
+    color: #7b838a;
+}
+.footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.footer .copyright p{
+    color: #fff;
+}
+.footer .copyright .links{
+    margin-top: 0px;
+}
+.footer .copyright .links p{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.footer .copyright .links i{
+    /* background: linear-gradient(to bottom, #a9e4ee, #78d8e9, #13c6e6); */
+    color: white;
+    font-size: 30px;
+    padding: 10px 13px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.footer .copyright .links i:hover{
+    color: #fff;
+    border: 1px solid rgb(21,21,100);
+    cursor: pointer;
+}
+
+/* -----------------responsivenes------------------------ */
+
+@media (min-width:300px) and (max-width:500px){
+    
+    .cart-text h2{
+        font-size: 35px;
+        font-weight: 500;
+        margin: 30px 0 30px 50px;
+    }
+
+    .container{
+        margin: 10px;
+    }
+
+    .item-box1, .item-box2, .item-box3{
+        margin-left: 25px;
+        height: 200px;
+    }
+    
+}
